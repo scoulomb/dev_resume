@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "theme": "elegant"
+  },
+  "basics": {
+    "name": "Sylvain COULOMBEL",
+    "label": "DevOps engineer",
+    "email": "sylvaincoulombel@gmail.com",
+    "phone": "+ 33 6 30 97 33 48",
+    "website": "https://www.linkedin.com/in/sylvain-coulombel/",
+    "summary": "DevOps engineer, currenty working for Amadeus. I love learning new things!",
+    "location": {
+      "address": "62 Boulevard du President Wilson",
+      "postalCode": "06600",
+      "city": "Antibes",
+      "countryCode": "FR",
+      "region": "Region Sud"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "scoulomb",
+        "url": "https://github.com/scoulomb"
+      },
+      {
+        "network": "Linkedin",
+        "username": "sylvain-coulombel",
+        "url": "https://www.linkedin.com/in/sylvain-coulombel/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Amadeus, Infrastructure and services",
+      "position": "Senior Software Engineer and SRE",
+      "website": "https://developers.amadeus.com/",
+      "startDate": "2019-06-01",
+      "summary": "We are automating load balancer configuration, DNS and firewall. Aim is to provide self-service API to automate this configuration and eliminate the toil. My role is to build the framework foundation, provide architecture and technical recommendations. Technology used: Python, Docker, Karate, Kubernetes, Jenkins, F5, InfoBlox"
+    },
+    {
+      "company": "Amadeus, API and Web Services Platform",
+      "position": "Senior Software Engineer and SRE",
+      "website": "https://developers.amadeus.com/",
+      "startDate": "2018-01-15",
+      "endDate": "2019-06-01",
+      "summary": "We designed an internal REST API which enables to automate ESB configuration. This automation is leveraged by the open API program. I was in charge of API design an development. In a second time I moved to a SRE role to deploy this automation in the cloud and setup the operational model. Technogy used: OpenShift, Java, SoapUI"
+    },
+    {
+      "company": "Amadeus Hospitality",
+      "position": "Software Engineer",
+      "website": "https://www.amadeus-hospitality.com/hotel-distribution-services-software/",
+      "startDate": "2016-07-15",
+      "endDate": "2018-02-15",
+      "summary": "We were managing hotel segment of Passenger Name Records (PNR) database. This module is used by Amadeus GDS. It aims at connecting travel agent to hoteliers (CRS). I design and implemented new features, participated to maintenance activities and on call roster to ensure high service level agreement. Technology used: C++, Python, Oracle"
+    },
+    {
+      "company": "Amadeus Hospitality",
+      "position": "Software Engineer",
+      "website": "https://www.amadeus-hospitality.com/central-reservations-system-software/crs/",
+      "startDate": "2014-09-01",
+      "endDate": "2016-07-15",
+      "summary": "Our team developed  the reservation module for the new cloud native reservation system (CRS).  It is now used by all IHG properties.  I was  back-end developer and scrum master of the team for 1 year. Technology used: C++, Python, Couchbase."
+    },
+    {
+      "company": "Amadeus Hospitality",
+      "position": "Software Engineer Intern",
+      "website": "https://www.amadeus-hospitality.com/",
+      "startDate": "2014-02-01",
+      "endDate": "2014-07-31",
+      "summary": "Study how NoSQL technologies could be used for managing hotel reservations. Technology used: Couchbase and MongoDB."
+    },
+    {
+      "company": "CEA List",
+      "position": "User experience design assistant (Intern)",
+      "website": "http://www.cea.fr/",
+      "startDate": "2012-08-01",
+      "endDate": "2013-01-31",
+      "summary": "Design and development of an interactive multimedia system that enables a continuous form of interaction between different sizes of screen with varying modalities of interaction. Technology used: Android, Python and Kinect."
+    },
+    {
+      "company": "Snecma, Groupe Safran",
+      "position": "Factory worker (Intern)",
+      "website": "https://www.safran-group.com/",
+      "startDate": "2009-07-01",
+      "endDate": "2009-07-31",
+      "summary": "Factory worker on Rafale's engine assembly line"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Link\u00f6ping University",
+      "area": "Computer Science",
+      "studyType": "Master's in computer science",
+      "startDate": "2013-08-01",
+      "endDate": "2014-07-31",
+      "gpa": "3.9"
+    },
+    {
+      "institution": "UTC",
+      "area": "Engineering",
+      "studyType": "Ing\u00e9nieur UTC, sp\u00e9cialit\u00e9 informatique",
+      "startDate": "2009-09-01",
+      "endDate": "2014-06-30"
+    },
+    {
+      "institution": "Shanghai University",
+      "area": "Language and culture",
+      "studyType": "Chinese Language teaching program",
+      "startDate": "2012-02-01",
+      "endDate": "2012-07-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Certified Kubernetes Application Developer (CKAD)",
+      "date": "2020-06-03",
+      "awarder": "Cloud Native Computing Foundation"
+    },
+    {
+      "title": "Introduction to Global Hospitality Management",
+      "date": "2016-03-10",
+      "awarder": "edX"
+    },
+    {
+      "title": "Certified Scrum Master",
+      "date": "2015-10-01",
+      "awarder": "Scrum Alliance"
+    },
+    {
+      "title": "MongoDB for Developers (M101P) and DBAs (M102)",
+      "date": "2014-07-01",
+      "awarder": "MongoDB University"
+    }
+  ],
+  "publications": [
+    {
+      "name": "NoSQL technologies for hotel bookings",
+      "publisher": "Link\u00f6ping University",
+      "releaseDate": "2015-01-30",
+      "website": "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-113602"
+    }
+  ],
+  "skills": [
+    {
+      "name": "SRE",
+      "keywords": [
+        "Kubernetes",
+        "OpenShift",
+        "Docker",
+        "CI/CD pipeline"
+      ]
+    },
+    {
+      "name": "Back-end Development",
+      "keywords": [
+        "Python",
+        "Java",
+        "C++"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Sailing",
+        "Skiing",
+        "Running",
+        "Swimming",
+        "Kung-Fu"
+      ]
+    }
+  ]
+}
