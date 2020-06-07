@@ -25,14 +25,16 @@ This reduces benefits ofdockerization :(
 ./update_static_site.sh 
 ```
 
+Step 2 and 3 can be replaced by `./generate_and_deploy.sh` (`chmod u+x ./generate_and_deploy.sh` if needed)
+
 - Step 4: Check results at  https://scoulomb.github.io/ and https://scoulomb.github.io/resume.pdf.
 
 
 ### Status
 
 - OK proc valide 
-- we could do optional exploration proposed in [setup instrutions](setup_instructions.md#EXPLO_TAG)
-- automate readme for moment ok !
+- we could do optional exploration proposed in [setup instrutions](setup_instructions.md#EXPLO_TAG) => dockerhub
+- automate readme -> DONE and related to readme so only there
 
 ### TODO
 
