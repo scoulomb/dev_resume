@@ -1,3 +1,4 @@
 *out*
 # to stop tracking do: git rm -r --cached ./out
 # https://stackoverflow.com/questions/936249/how-to-stop-tracking-and-ignore-changes-to-a-file-in-git
+.idea
