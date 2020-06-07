@@ -26,3 +26,5 @@ cd ~/dev_resume ; sudo hackmyresume build ./out/resume.json TO ./out/index.html 
 
 Status:
 -OK proc valide and in setup instrctions optional exploration
+TODO
+ALign LI?
