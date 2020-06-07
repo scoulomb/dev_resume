@@ -30,6 +30,7 @@ For preview with icon use do `python3 -m http.server 8080` in out location
 
 - OK proc valide 
 - we could do optional exploration proposed in [setup instrutions](setup_instructions.md#EXPLO_TAG)
+- automate readme for moment ok !
 
 ### TODO
 
