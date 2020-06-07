@@ -27,7 +27,7 @@ This reduces benefits ofdockerization :(
 
 Step 2 and 3 can be replaced by `./generate_and_deploy.sh` (`chmod u+x ./generate_and_deploy.sh` if needed)
 
-- Step 4: Check results at  https://scoulomb.github.io/ and https://scoulomb.github.io/resume.pdf.
+- Step 4: Check results at  https://scoulomb.github.io/ and https://scoulomb.github.io/resume.pdf. (`ctrl+F5` to refresh)
 
 
 ### Status
