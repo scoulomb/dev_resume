@@ -78,7 +78,7 @@ education:
   studyType: Master's in computer science
   startDate: '2013-08-01'
   endDate: '2014-07-31'
-  gpa: '3.9' # GPA From transcript and https://www.scholaro.com/gpa-calculator/
+  gpa: 'GPA 3.9' # GPA From transcript and https://www.scholaro.com/gpa-calculator/
 - institution: UTC
   area: Engineering
   studyType: Ingénieur UTC, spécialité informatique
