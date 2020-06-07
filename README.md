@@ -9,15 +9,15 @@ See details in [setup instructions](setup_instructions.md)
 ```
 sudo docker-compose --file ./src/docker-compose.yaml up  --build
 ```
-If we want also elegant theme (elegant HTML is amazing), which has some issue when dockerizing output generation. See setup of deps in [setup instructions](setup_instructions.md) (or apply Dockerfile content and changing theme to `jsonresume-theme-elegant`). Note this generates the html index. 
+If we want also elegant theme (elegant HTML is amazing), which has some issue when dockerizing output generation. See setup of deps in [setup instructions](setup_instructions.md) (or apply Dockerfile content and changing theme to `jsonresume-theme-elegant`). Note this generates the html index in current setup. 
 
 ```
 sudo hackmyresume build ./out/resume.json TO ./out/index.html -t /usr/local/lib/node_modules/jsonresume-theme-elegant/
 ```
 
-For preview with icon use do `python3 -m http.server 8080` in out location
+For preview with icon display do `python3 -m http.server 8080` in out location
 
-This reduces benefits ofdockerization :(
+If Elegant theme is used it reduces benefits ofdockerization :(
 
 - Step 3: Upload static site
 
@@ -35,6 +35,7 @@ Step 2 and 3 can be replaced by `./generate_and_deploy.sh` (`chmod u+x ./generat
 - OK proc valide 
 - we could do optional exploration proposed in [setup instrutions](setup_instructions.md#EXPLO_TAG) => dockerhub
 - automate readme -> DONE and related to readme so only there
+- link OK (yaml, output pdf and web and gravatar)
 
 ### TODO
 
