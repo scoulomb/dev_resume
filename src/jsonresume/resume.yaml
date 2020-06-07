@@ -6,7 +6,7 @@ basics:
   name: Sylvain COULOMBEL
   label: DevOps engineer
   # picture: './pic.jpeg'
-  # Commented so that with macchiato theme we do not have placeholder in pdf and with elegant them it uses gravatar for   html. With gist version it ises gravatar even if picture field is there. We can set gravatar here: https://en.gravatar.com/emails?auto-applied=1
+  # Commented so that with macchiato theme we do not have placeholder in pdf and with elegant them it uses gravatar for html. With gist version it uses gravatar even if picture field is there. We can set gravatar here: https://en.gravatar.com/emails?auto-applied=1. Github accout does not ncessarily use Gravatar.
   email: sylvaincoulombel@gmail.com
   phone: "+ 33 6 30 97 33 48"
   website: https://scoulomb.github.io
