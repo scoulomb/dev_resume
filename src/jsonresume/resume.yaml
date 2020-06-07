@@ -1,4 +1,5 @@
 ---
+# Grammar: https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json (for instance education url)
 meta:
 # Or do https://registry.jsonresume.org/scoulomb?theme=Elegant
   theme: "elegant"
@@ -6,11 +7,11 @@ basics:
   name: Sylvain COULOMBEL
   label: DevOps engineer
   # picture: './pic.jpeg'
-  # Commented so that with macchiato theme we do not have placeholder in pdf and with elegant them it uses gravatar for html. With gist version it uses gravatar even if picture field is there. We can set gravatar here: https://en.gravatar.com/emails?auto-applied=1. Github accout does not ncessarily use Gravatar.
+  # Commented so that with macchiato theme we do not have placeholder in pdf and with elegant them it uses gravatar for html. With gist version it uses gravatar even if picture field is not there. We can set gravatar here: https://en.gravatar.com/emails?auto-applied=1. Github accout does not ncessarily use Gravatar.
   email: sylvaincoulombel@gmail.com
   phone: "+ 33 6 30 97 33 48"
   website: https://scoulomb.github.io
-  summary: DevOps engineer, currently working for Amadeus. I love learning new things!
+  summary: I am a 30 year old software engineer with strong interest in DevOps. I am currently working for Amadeus. I enjoy learning new technologies!
   location:
     address: 62 Boulevard du President Wilson
     postalCode: '06600'
@@ -75,15 +76,17 @@ work:
 education:
 - institution: Linköping University
   area: Computer Science
-  studyType: Master's in computer science
+  studyType: Master of Science
   startDate: '2013-08-01'
   endDate: '2014-07-31'
   gpa: 'GPA 3.9' # GPA From transcript and https://www.scholaro.com/gpa-calculator/
+  url: https://liu.se/en/education/program/6mics
 - institution: UTC
   area: Engineering
-  studyType: Ingénieur UTC, spécialité informatique
+  studyType: Ingénieur diplômé de l'UTC spécialité informatique
   startDate: '2009-09-01'
   endDate: '2014-06-30'
+  url: https://www.utc.fr/en/courses-and-training/the-utc-engineering-diploma.html
 - institution: Shanghai University
   area: Language and culture
   studyType: Chinese Language teaching program
