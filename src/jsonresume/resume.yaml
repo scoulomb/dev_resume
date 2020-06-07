@@ -13,7 +13,7 @@ basics:
   website: https://scoulomb.github.io
   summary: I am a 30 year old software engineer with strong interest in DevOps. I am currently working for Amadeus. I enjoy learning new technologies!
   location:
-    address: 62 Boulevard du President Wilson
+    # address: ""
     postalCode: '06600'
     city: Antibes
     countryCode: FR
