@@ -44,7 +44,7 @@ work:
   startDate: '2016-07-15'
   endDate: '2018-02-15'
   summary: 'We were managing hotel segment of Passenger Name Records (PNR) database. This module is used by Amadeus GDS. It aims at connecting travel agent to hoteliers (CRS).
-            I design and implemented new features, participated to maintenance activities and on call roster to ensure high service level agreement. Technology used: C++, Python, Oracle'
+            I designed and implemented new features, participated to maintenance activities and on call roster to ensure high service level agreement. Technology used: C++, Python, Oracle'
 - company: Amadeus Hospitality
   position: Software Engineer
   website: https://www.amadeus-hospitality.com/central-reservations-system-software/crs/
