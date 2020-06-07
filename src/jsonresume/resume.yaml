@@ -37,7 +37,7 @@ work:
   website: https://developers.amadeus.com/
   startDate: '2018-01-15'
   endDate: '2019-06-01'
-  summary: 'We designed an internal REST API which enables to automate ESB configuration. This automation is leveraged by the open API program. I was in charge of API design an development. In a second time I moved to a SRE role to deploy this automation in the cloud and setup the operational model. Technogy used: OpenShift, Java, SoapUI'
+  summary: 'We designed an internal REST API which enables to automate ESB configuration. This automation is leveraged by the open API program. I was in charge of API design an development. In a second time I moved to a SRE role to deploy this automation in the cloud and setup the operational model. Technology used: OpenShift, Java, SoapUI'
   # Not mentionned orchestration, LNK
 - company: Amadeus Hospitality
   position: Software Engineer

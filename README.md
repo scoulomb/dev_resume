@@ -49,4 +49,5 @@ Step 2 and 3 can be replaced by `./generate_and_deploy.sh` (`chmod u+x ./generat
 
 - ALign LI?
 
+UPDATE OK
 -->
