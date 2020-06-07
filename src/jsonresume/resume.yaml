@@ -9,7 +9,7 @@ basics:
   # Commented so that with macchiato theme we do not have placeholder in pdf and with elegant them it uses gravatar for   html. With gist version it ises gravatar even if picture field is there. We can set gravatar here: https://en.gravatar.com/emails?auto-applied=1
   email: sylvaincoulombel@gmail.com
   phone: "+ 33 6 30 97 33 48"
-  website: https://scoulomb.github.io/
+  website: https://scoulomb.github.io
   summary: DevOps engineer, currenty working for Amadeus. I love learning new things!
   location:
     address: 62 Boulevard du President Wilson

@@ -2,7 +2,7 @@
 
 See details in [setup instrutions](setup_instructions.md)
 
-- Step 1: Update JSON resume in `/src/jsonresume` (and commit your changes or after step 3)
+- Step 1: Update JSON resume in `/src/jsonresume` (and add/commit/push your changes or after step 3)
 
 - Step 2: Generate output 
 
