@@ -7,12 +7,12 @@ See details in [setup instructions](setup_instructions.md)
 - Step 2: Generate JSON output, and macchiato PDF, HTML and in a second time elegant HTML (previous JSON needed)
 
 ```
-cd ~/dev_resume/src  ; sudo docker-compose up --build
+sudo docker-compose --file ./src/docker-compose.yaml up  --build
 ```
 If we want also elegant theme (elegant HTML is amazing), which has some issue when dockerizing output generation. See setup of deps in [setup instructions](setup_instructions.md) (or apply Dockerfile content and changing theme to `jsonresume-theme-elegant`). Note this generates the html index. 
 
 ```
-cd ~/dev_resume ; sudo hackmyresume build ./out/resume.json TO ./out/index.html -t /usr/local/lib/node_modules/jsonresume-theme-elegant/
+sudo hackmyresume build ./out/resume.json TO ./out/index.html -t /usr/local/lib/node_modules/jsonresume-theme-elegant/
 ```
 
 For preview with icon use do `python3 -m http.server 8080` in out location

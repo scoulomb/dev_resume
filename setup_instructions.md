@@ -156,9 +156,15 @@ So I will generate JSON and PDF, HTML macchiato with docker
 And generate elegant HTML manually (but it implies locall setup). Note this generates the index.
 
 ```
-cd ~/dev_resume/src  ; sudo docker-compose up --build
+sudo docker-compose --file ./src/docker-compose.yaml up  --build
 cd ~/dev_resume ; sudo hackmyresume build ./out/resume.json TO ./out/index.html -t /usr/local/lib/node_modules/jsonresume-theme-elegant/
 ```
+
+<!-- 
+Initially was doing 
+cd ~/dev_resume/src  ; sudo docker-compose up --build
+but was forced to use file below
+-->
 
 Note I did not use copy but volume mapping to have a generator image always valid.
 
@@ -181,7 +187,7 @@ and domain name scoulom.dev (google domain)
 
 For instance solution 2 deployed with compose:
 ```
-cd ~/dev_resume/src  ; sudo docker-compose --file docker-compose_nginx.yaml up  --build
+sudo docker-compose --file ./src/docker-compose_nginx.yaml up  --build
 ```
 
 Go to a browser and target 8080
