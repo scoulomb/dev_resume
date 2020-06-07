@@ -28,6 +28,14 @@ Next step is to generate HTML locally and generate a PDF from YAML file.
 
 We could use native repo instead, for instance for PDF: https://github.com/jsonresume/resumeToPDF/blob/master/README.md
 
+### Insstall hack my resume
+
+```
+sudo apt-get install npm
+sudo npm install -g hackmyresume
+
+```
+
 ### Convert yaml2json
 
 ```shell
@@ -124,13 +132,77 @@ hackmyresume ANALYZE resume.json
 
 ## Dockerize output generation
 
+### Docker
+
+For HTML generation we have an issue with elegant theme
+
+```
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+/usr/local/bin/hackmyresume -> /usr/local/lib/node_modules/hackmyresume/dist/cli/index.js
+
+> core-js@2.6.11 postinstall /usr/local/lib/node_modules/jsonresume-theme-elegant/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+```
+
+Old core JS version does not support multiple package setup based on core js?
+But elegant tested in its own docker does not work
+
+Fix is there: https://github.com/zloirock/core-js/issues/781
+Actually  I can not update the JSON core dependency and it is too old...
+
+So I will generate JSON and PDF, HTML macchiato with docker
+And generate elegant HTML manually (but it implies locall setup). Note this generates the index.
+
+```
+cd ~/dev_resume/src  ; sudo docker-compose up --build
+cd ~/dev_resume ; sudo hackmyresume build ./out/resume.json TO ./out/index.html -t /usr/local/lib/node_modules/jsonresume-theme-elegant/
+```
+
+Note I did not use copy but volume mapping to have a generator image always valid.
 
 
+[here can deep dive but ok] 
 
-HTML can keep guthub registry
-For pdf output ok 
-Then  can docker
-One for generation and pod?
-And deploy in OpenShift
+### Push it to docker hub and remote docker compose yaml
+
+It is not but would enable to ensure we always have the generator available.
+
+## Deploy 
+
+### Deploy in Kubernetes/Openshift online nginx
+
+and domain name scoulom.dev (google domain)
+
+- Solution 1: Generate new image each time we have new ouput and deploy it with travis in OpenShift
+- Solution 2: Keep same image running and have side car container pulling last output from git in an emptyDir
+
+For instance solution 2 deployed with compose:
+```
+cd ~/dev_resume/src  ; sudo docker-compose --file docker-compose_nginx.yaml up  --build
+```
+
+Go to a browser and target 8080
+
+Found correct path by doing: `k run tutu --image=nginx;  k exec -it tutu -- /bin/sh`
+
+Then we could deploy in minikube locally with emptydir or hostpath
+
+I will not go further because I discovered github page.
+
+### Use githubpages
+
+With  github page, having a repo named scoulomb.github.io
+Can host a static website.
+
+Thus
+
+```
+./update_static_site.sh # chmod ux if needed
+```
 
 
+Note:
+- to delete out need sudo because of docker
+- I use yaml for edtition beacuse better than JSON, hackmyresume generates yaml but can not take json as input

@@ -1,0 +1,21 @@
+version: "3.6"
+
+services:
+  builder:
+    build:
+      dockerfile: build.Dockerfile
+      context: .
+    image: resume-builder
+    volumes:
+      # BINDING LOCAL:DOCKER CONTAINER
+      - "./jsonresume:/WORKDIR/jsonresume" # Share volume containing JSON resume in YAML
+      - "../out:/out" # Output containing JSON transformation, HTML and PDF generation
+  server:
+    image: nginx
+    volumes:
+      # BINDING LOCAL:DOCKER CONTAINER
+      - "../out:/usr/share/nginx/html" # Output containing JSON transformation, HTML and PDF generation
+    ports:
+      - "8080:80"
+
+ 
