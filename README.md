@@ -17,6 +17,8 @@ cd ~/dev_resume ; sudo hackmyresume build ./out/resume.json TO ./out/index.html 
 
 For preview with icon use do `python3 -m http.server 8080` in out location
 
+This reduces benefits ofdockerization :(
+
 - Step 3: Upload static site
 
 ```
