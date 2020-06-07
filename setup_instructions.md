@@ -162,6 +162,7 @@ cd ~/dev_resume ; sudo hackmyresume build ./out/resume.json TO ./out/index.html 
 
 Note I did not use copy but volume mapping to have a generator image always valid.
 
+######### EXPLO TAG
 
 [here can deep dive but ok] 
 

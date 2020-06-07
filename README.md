@@ -9,7 +9,7 @@ See details in [setup instrutions](setup_instructions.md)
 ```
 cd ~/dev_resume/src  ; sudo docker-compose up --build
 ```
-If we want also elegant theme, which has some issue when dockerizing output generation. See setup of deps [setup instrutions](setup_instructions.md). Note this generates the index.
+If we want also elegant theme, which has some issue when dockerizing output generation. See setup of deps in [setup instrutions](setup_instructions.md). Note this generates the index.
 
 ```
 cd ~/dev_resume ; sudo hackmyresume build ./out/resume.json TO ./out/index.html -t /usr/local/lib/node_modules/jsonresume-theme-elegant/
@@ -24,7 +24,11 @@ cd ~/dev_resume ; sudo hackmyresume build ./out/resume.json TO ./out/index.html 
 - Step 4: Check results at  https://scoulomb.github.io/ and https://scoulomb.github.io/resume.pdf.
 
 
-Status:
--OK proc valide and in setup instrctions optional exploration
-TODO
-ALign LI?
+### Status
+
+- OK proc valide 
+- we could do optional exploration proposed in [setup instrutions](setup_instructions.md#EXPLO_TAG)
+
+### TODO
+
+- ALign LI?
