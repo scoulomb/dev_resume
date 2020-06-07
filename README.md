@@ -21,4 +21,8 @@ cd ~/dev_resume ; sudo hackmyresume build ./out/resume.json TO ./out/index.html 
 ./update_static_site.sh 
 ```
 
+- Step 4: Check results at  https://scoulomb.github.io/ and https://scoulomb.github.io/resume.pdf.
 
+
+Status:
+-OK proc valide and in setup instrctions optional exploration
