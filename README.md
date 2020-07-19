@@ -44,7 +44,8 @@ Step 2 and 3 can be replaced by `./generate_and_deploy.sh` (`chmod u+x ./generat
 - automate readme -> DONE and related to readme so only there
 - link OK (yaml, output pdf and web and gravatar)
 - open browser => NO
-
+- 19jul ok; may need to clean github.io with the time as long update or do amend?
+- full ci/cd blocked by elegant theme
 ### TODO
 
 - ALign LI?
