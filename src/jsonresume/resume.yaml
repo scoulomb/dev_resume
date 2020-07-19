@@ -30,7 +30,7 @@ work:
   position: Senior Software Engineer and SRE
   website: https://developers.amadeus.com/
   startDate: '2019-06-01'
-  summary: 'We are automating load balancer configuration, DNS and firewall. Aim is to provide self-service API to automate this configuration and eliminate the toil. My role is to build the framework foundation, provide architecture and technical recommendations. Technology used: Python, Docker, Karate, Kubernetes, Jenkins, F5, InfoBlox'
+  summary: 'We are automating load balancer, DNS and firewall configurations. Aim is to provide self-service API to automate network configurations and eliminate the toil. My role is to build the framework foundations, provide architecture recommendations and support internal customers. Technology used: Python, Docker, Karate, Kubernetes, Jenkins, Ansible, F5, Infoblox'
   # Not mentionned orchestration, LNK
 - company: Amadeus, API and Web Services Platform
   position: Senior Software Engineer and SRE
